@@ -1,0 +1,25 @@
+GIT Command
+
+git status
+
+git clone <URL>
+
+git checkout <branch_name>
+
+git push origin master
+
+git pull  --> to get updated data to existing branch(mostly on local master wit remote master)
+
+git merge <branch_name>  -->  to merge changes
+
+git checkout -b <branch_name>  -->  to create a new branch from local master by using cmd git checkout master
+
+git diff master/git diff --stat master  -->  to find the diff between local branch and local master branch
+
+git add <file_name>
+
+git add .  -->  to add all files
+
+git commit -m <"Comments">
+
+git checkout <file_name> / git checkout .  -->  to revert the changes
